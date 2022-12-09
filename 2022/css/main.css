@@ -219,6 +219,8 @@ header .menu {
 .people {
     background-color: rgba(50,44,61,1.00);
     color: rgba(213,213,213,1.00);
+    padding-top: 1px;
+    padding-bottom: 130px;
 }
 .people .centerflex {
     align-items: center;
@@ -227,10 +229,10 @@ header .menu {
 .people .face {
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 0;
-    width: 80%;
+    margin-bottom: 150px;
+    width: 75%;
     height: 600px;
-    padding-top: 150px;
+    margin-top: 100px;
 }
 .people .face .role {
     margin-bottom: 80px;
@@ -241,7 +243,7 @@ header .menu {
     font-size: 200%;
     margin-bottom: 10px;
 }
-.people .face .affiliation {
+.people .face .department {
     margin-bottom: 20px;
 }
 .people .box {
@@ -254,12 +256,20 @@ header .menu {
     object-fit: cover;
     transform: skewY(45deg);
 }
-.people .others  {
-    padding-bottom: 100px;
-    width: 55%;
-    padding-top: 100px;
+.people .members {
+    width: 60%;
 }
-body footer {
+.people .member  {
+    text-align: center;
+    font-size: 130%;
+    line-height: 150%;
+    padding-top: 50px;
+}
+footer  {
     height: 300px;
     background-color: rgba(88,109,139,1.00);
+}
+footer .centerflex {
+    width: 80%;
+    align-items: center;
 }
