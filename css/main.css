@@ -1,11 +1,40 @@
-.mainv .mainvisual {
+.mainv   {
     position: relative;
 }
+.mainv .mainvisual {
+	object-fit: cover;
+}
 .mainv h1 {
-    position: absolute;
-    top: 10%;
+    top: 3%;
     color: rgba(255,255,255,1.00);
+    left: 23%;
+    position: absolute;
 }
 .mainv li {
+    font-size: 200%;
+}
+.mainv ul .first {
+    top: 30%;
+    right: 20%;
+    position: absolute;
+}
+.mainv ul .second {
+    top: 30%;
+    left: 20%;
+    position: absolute;
+}
+.mainv ul .fifth {
+    top: 50%;
+    left: 30%;
+    position: absolute;
+}
+.mainv ul .sixth {
+    position: absolute;
+    top: 50%;
+    right: 30%;
+}
+.mainv ul .seventh {
+    top: 58%;
+    left: 50%;
     position: absolute;
 }
