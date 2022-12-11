@@ -157,13 +157,6 @@ header .menu {
     bottom: 22%;
     z-index: 500;
 }
-.works .moon {
-    width: 12%;
-    position: absolute;
-    right: 15%;
-    bottom: 10%;
-    z-index: 500;
-}
 .works {
     background-color: rgba(244,247,231,1.00);
     padding-bottom: 100px;
@@ -183,10 +176,46 @@ header .menu {
 }
 .works .card {
     width: 33.6%;
+	height: 33.6%;
     border-style: solid;
     border-width: medium;
     border-collapse: collapse;
     margin-bottom: -2px;
+	position: relative;
+	overflow: hidden;
+}
+
+.works .card .text{
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transition: all 0.6s ease;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    flex-flow: column;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.works .card:hover .text {
+	opacity: 1;
+}
+.works .card .title {
+    font-size: 150%;
+    margin-bottom: 10px;
+}
+.works .moon {
+    width: 12%;
+    position: absolute;
+    right: 3%;
+    bottom: 2%;
+    z-index: 500;
 }
 .timeandplace {
     height: 586px;
