@@ -1,40 +1,61 @@
 .mainv   {
     position: relative;
 }
+.wrap {
+    height: 1080px;
+    width: 1920px;
+    position: absolute;
+    transform-origin: 0% 0%;
+}
 .mainv .mainvisual {
 	object-fit: cover;
 }
 .mainv h1 {
-    top: 3%;
+    top: 16%;
     color: rgba(255,255,255,1.00);
-    left: 23%;
+    left: 30%;
     position: absolute;
+    text-align: center;
 }
-.mainv li {
-    font-size: 200%;
+.mainv a {
+    font-size: 333%;
+    color: rgba(255,255,255,1.00);
 }
 .mainv ul .first {
-    top: 30%;
-    right: 20%;
+    top: 25%;
     position: absolute;
+    left: 4%;
+    color: rgba(255,255,255,1.00);
 }
 .mainv ul .second {
-    top: 30%;
-    left: 20%;
+    top: 76%;
+    left: 4%;
     position: absolute;
 }
+.mainv ul .third {
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    color: rgba(118,118,118,1.00);
+}
+.mainv ul .fourth {
+    position: absolute;
+    top: 76%;
+    right: 10%;
+    color: rgba(118,118,118,1.00);
+}
 .mainv ul .fifth {
-    top: 50%;
-    left: 30%;
+    top: 76%;
+    left: 29%;
     position: absolute;
 }
 .mainv ul .sixth {
     position: absolute;
-    top: 50%;
-    right: 30%;
+    top: 76%;
+    right: 33%;
 }
 .mainv ul .seventh {
-    top: 58%;
-    left: 50%;
+    top: 35%;
+    left: 45%;
     position: absolute;
 }
