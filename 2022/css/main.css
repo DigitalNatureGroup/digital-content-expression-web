@@ -159,8 +159,8 @@ header .menu {
 }
 .works {
     background-color: rgba(244,247,231,1.00);
-    padding-bottom: 100px;
-    padding-top: 60px;
+    padding-bottom: 200px;
+    padding-top: 130px;
     position: relative;
 }
 .works .sectitle {
@@ -285,10 +285,13 @@ header .menu {
     padding-top: 1px;
     padding-bottom: 250px;
     position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 .people .stripes {
     opacity: 0.1;
     position: absolute;
+    overflow-y: hidden;
 }
 .people .umetri {
     position: absolute;
@@ -296,12 +299,6 @@ header .menu {
     left: 5%;
     opacity: 0.2;
     width: 14%;
-}
-.people .matsu {
-    position: absolute;
-    top: 50%;
-    right: 5%;
-    width: 15%;
 }
 .people .centerflex {
     align-items: center;
@@ -373,7 +370,7 @@ footer .archive {
     /* [disabled]margin-left: 30%; */
 }
 footer .archive2 {
-    margin-left: 16%;
+    margin-left: 10%;
 }
 footer .archive a {
     padding-top: 10px;
@@ -392,6 +389,7 @@ footer .archive2 a {
 footer .fuck {
     display: flex;
     width: 15%;
+    margin-right: 6%;
 }
 .forms{
     position: fixed;
@@ -421,4 +419,194 @@ footer .fuck {
 }
 .forms:hover{
     opacity: 0.85 ;
+}
+
+@media screen and (max-width:1112px){
+.about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    background-repeat: repeat;
+    background-image: url("../img/アセット 2.svg");
+    background-size: 5% auto;
+}
+.about .descripition {
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.works {
+    background-color: rgba(244,247,231,1.00);
+    padding-bottom: 120px;
+    padding-top: 80px;
+    position: relative;
+}
+footer .fuck {
+    display: flex;
+    width: 15%;
+    margin-right: 6%;
+}
+.forms a {
+    display: block;
+    text-decoration: none;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background: rgba(0,0,0,0.2);
+    color: #FFF;
+    text-align: center;
+    margin: 10px 0;
+}
+}
+
+@media screen and (min-width:1500px){
+.people .centerflex {
+    align-items: center;
+    width: 65%;
+}
+.people .members {
+    width: 50%;
+}
+footer .centerflex {
+    width: 80%;
+    align-items: center;
+    height: 300px;
+    justify-content: space-between;
+}
+footer .fuck {
+    display: flex;
+    width: 15%;
+    /* [disabled]margin-right: 6%; */
+}
+}
+
+@media screen and (max-width:850px){
+.pc {
+	display: none;
+}
+
+.about .logo {
+    width: 25%;
+    position: absolute;
+    right: 13%;
+    bottom: 22%;
+    z-index: 500;
+    display: none;
+}
+.works .centerflex {
+    width: 100%;
+}
+.works .moon {
+    width: 12%;
+    position: absolute;
+    right: 3%;
+    bottom: 2%;
+    z-index: 500;
+    display: none;
+}
+.people .umetri {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    opacity: 0.2;
+    width: 21%;
+}
+.people .centerflex {
+    align-items: center;
+    width: 90%;
+}
+.people .face {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    width: 75%;
+    /* [disabled]height: 600px; */
+    margin-top: 35px;
+}
+.people .member {
+    text-align: center;
+    font-size: 130%;
+    line-height: 150%;
+    padding-top: 50px;
+}
+footer .class_name {
+    font-size: 200%;
+    width: 250px;
+}
+footer .fuck {
+    display: flex;
+    width: 15%;
+    margin-right: 12%;
+}
+}
+
+@media screen and (min-width:851px){
+.sp {
+    display: none;
+}
+}
+
+@media screen and (max-width:420px){
+.mainv .t {
+    width: 100%;
+    height: 40px;
+    background-color: rgba(255,255,255,1.00);
+    position: absolute;
+    top: 0%;
+}
+.mainv .b {
+    width: 100%;
+    height: 40px;
+    background-color: rgba(255,255,255,1.00);
+    position: absolute;
+    bottom: 0%;
+    display: block;
+}
+.mainv .l {
+    position: absolute;
+    left: 0%;
+    width: 40px;
+    height: 100%;
+    top: 0%;
+    background-color: rgba(255,255,255,1.00);
+}
+.mainv .r {
+    position: absolute;
+    width: 40px;
+    height: 100%;
+    top: 0%;
+    background-color: rgba(255,255,255,1.00);
+    right: 0%;
+}
+.nav {
+    position: absolute;
+    left: 15px;
+    margin-top: 25px;
+}
+header .menu {
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    transform: rotate( -180deg );
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    letter-spacing: 0.7vw;
+	font-size: 90%;
+}
+.mainv .text {
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    position: absolute;
+    right: 10px;
+    bottom: 10%;
+    font-size: 90%;
+    letter-spacing: 1.1vw;
+}
 }
