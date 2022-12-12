@@ -552,9 +552,6 @@ footer .fuck {
 }
 
 @media screen and (max-width:420px){
-.mainv .t, .b, .l, .r {
-    display:none;
-}
 .nav {
     position: absolute;
     left: 15px;
@@ -569,7 +566,23 @@ header .menu {
     margin-left: auto;
     margin-bottom: 0;
     letter-spacing: 0.7vw;
-	font-size: 90%;
+    font-size: 90%;
+    display: none;
+}
+.mainv .logo {
+    width: 45%;
+    position: absolute;
+    right: 7%;
+    top: 10%;
+    border-radius: 24px;
+}
+.mainv .logo.sp {
+	width: 45%;
+    position: absolute;
+    right: 7%;
+    top: 10%;
+    border-radius: 24px;
+	filter: blur(5px);
 }
 .mainv .text {
     writing-mode: vertical-rl;
@@ -579,9 +592,50 @@ header .menu {
     bottom: 10%;
     font-size: 90%;
     letter-spacing: 1.1vw;
+    display: none;
+}
+.mainv .t, .b, .l, .r {
+    display:none;
 }
 .mainv .mainvisual .sp {
     height: 100%;
     width: auto;
+}
+.about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    background-repeat: repeat;
+    background-image: url("../img/アセット 2.svg");
+    background-size: 10% auto;
+}
+.about .descripition {
+    margin-right: auto;
+    margin-left: auto;
+    width: 92%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.about .descripition h2 {
+    font-size: 200%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.about .descripition .text {
+    line-height: 230%;
+    -webkit-backdrop-filter: blur(2px);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 19px;
+}
+.works .sectitle {
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+    width: 80%;
+    font-size: 375%;
 }
 }
