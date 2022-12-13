@@ -328,7 +328,7 @@ header .menu {
     transform: skewY(-45deg);
 }
 .people .box img{
-	width: 100%;
+    width: 440px;
     height: 100%;
     object-fit: cover;
     transform: skewY(45deg);
