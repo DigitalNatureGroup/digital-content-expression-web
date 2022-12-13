@@ -301,6 +301,7 @@ header .menu {
 }
 .people .centerflex {
     align-items: center;
+    margin: 0 auto;
     width: 75%;
 }
 .people .face {
@@ -332,6 +333,11 @@ header .menu {
     height: 100%;
     object-fit: cover;
     transform: skewY(45deg);
+}
+.people .face .descripition {
+    width: 40%;
+    margin-right: 0px;
+    padding-right: 0px;
 }
 .people .members {
     width: 60%;
