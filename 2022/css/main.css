@@ -176,13 +176,13 @@ header .menu {
 }
 .works .card {
     width: 33.6%;
-	height: 33.6%;
+    height: 33.6%;
     border-style: solid;
     border-width: medium;
     border-collapse: collapse;
     margin-bottom: -2px;
-	position: relative;
-	overflow: hidden;
+    position: relative;
+    overflow: hidden;
 }
 
 .works .card .text{
@@ -327,9 +327,15 @@ header .menu {
 .people  .face .name {
     font-size: 200%;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 .people .face .department {
     margin-bottom: 20px;
+}
+.people .face .descripition {
+    width: 40%;
+    margin-right: 0px;
+    padding-right: 0px;
 }
 .people .box {
 	overflow: hidden;
@@ -340,11 +346,6 @@ header .menu {
     height: 100%;
     object-fit: cover;
     transform: skewY(45deg);
-}
-.people .face .descripition {
-    width: 40%;
-    margin-right: 0px;
-    padding-right: 0px;
 }
 .people .members {
     width: 60%;
@@ -362,13 +363,13 @@ header .menu {
     right: -2%;
 }
 footer  {
-    height: 300px;
+    height: 230px;
     background-color: rgba(88,109,139,1.00);
 }
 footer .centerflex {
     width: 90%;
     align-items: center;
-    height: 300px;
+    height: 230px;
     justify-content: space-between;
 }
 footer .class_name {
@@ -382,7 +383,7 @@ footer .archive {
     /* [disabled]margin-left: 30%; */
 }
 footer .archive2 {
-    margin-left: 10%;
+    margin-left: 29%;
 }
 footer .archive a {
     padding-top: 10px;
@@ -488,7 +489,7 @@ footer .fuck {
 footer .centerflex {
     width: 80%;
     align-items: center;
-    height: 300px;
+    height: 230px;
     justify-content: space-between;
 }
 footer .fuck {
@@ -641,6 +642,8 @@ header .menu {
     padding-bottom: 25px;
     padding-left: 10px;
     font-size: 90%;
+    width: 100%;
+    padding-right: 10px;
 }
 .works .sectitle {
     margin-top: 0;
@@ -741,15 +744,25 @@ header .menu {
     width: 75%;
     height: 600px;
     margin-top: 100px;
+    display: block;
+}
+.people .face .descripition {
+    width: 100%;
+    margin-right: 0px;
+    padding-right: 0px;
 }
 .people .face .role {
-    margin-bottom: 80px;
+    margin-bottom: 12px;
     font-size: 100%;
     margin-left: -30px;
+    margin-top: 25px;
 }
 .people  .face .name {
-    font-size: 130%;
+    font-size: 200%;
     margin-bottom: 6px;
+}
+.people .face .comment {
+    font-size: 85%;
 }
 .people .member {
     text-align: center;
@@ -762,5 +775,26 @@ header .menu {
     position: absolute;
     bottom: 4%;
     right: -2%;
+}
+footer {
+    height: 200px;
+    background-color: rgba(88,109,139,1.00);
+}
+footer .centerflex {
+    width: 90%;
+    align-items: center;
+    height: 200px;
+    justify-content: space-between;
+    display: block;
+}
+footer .class_name {
+    font-size: 125%;
+    width: 90%;
+    margin-bottom: 20px;
+}
+footer .department {
+    font-size: 60%;
+    margin-bottom: 7px;
+    padding-top: 24px;
 }
 }
