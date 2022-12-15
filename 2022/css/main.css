@@ -189,7 +189,7 @@ header .menu {
     overflow: hidden;
 }
 .works .card a {
-    font-family: YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
+    font-family: YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif !important;
 }
 
 .works .card .text{
