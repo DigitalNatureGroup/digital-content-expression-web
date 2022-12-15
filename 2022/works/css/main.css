@@ -1,9 +1,16 @@
+.container {
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    width: 49%;
+}
 header {
     position: relative;
 	z-index: 9999;
 }
 .sectitle {
-    font-size: 2.5vw;
+    font-size: 200%;
     margin-bottom: 30px;
 }
 .centerflex {
@@ -63,6 +70,7 @@ header .menu {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 0;
+	
     letter-spacing: 0.7vw;
 }
 .mainv {
@@ -73,6 +81,14 @@ header .menu {
     /* [disabled]padding-right: 5vw; */
     /* [disabled]padding-top: 5vw; */
     /* [disabled]padding-bottom: 5vw; */
+    margin: 0 auto;
+}
+.mainv .image {
+    margin-top: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    width: 50%;
 }
 .mainv .logo {
     width: 24%;
@@ -86,22 +102,7 @@ header .menu {
     position: absolute;
     right: 24px;
     bottom: 10%;
-    font-size: 110%;
     letter-spacing: 1.1vw;
-}
-.mainv .t {
-    width: 100%;
-    height: 72px;
-    background-color: rgba(255,255,255,1.00);
-    position: absolute;
-    top: 0%;
-}
-.mainv .b {
-    width: 100%;
-    height: 72px;
-    background-color: rgba(255,255,255,1.00);
-    position: absolute;
-    bottom: 0%;
 }
 .mainv .l {
     position: absolute;
@@ -119,648 +120,61 @@ header .menu {
     background-color: rgba(255,255,255,1.00);
     right: 0%;
 }
-.about {
-    padding-top: 120px;
-    padding-bottom: 120px;
-    position: relative;
-    background-repeat: repeat;
-    background-image: url("../img/アセット 2.svg");
-    background-size: 5% auto;
-}
-.about .descripition {
-    margin-right: auto;
-    margin-left: auto;
-    width: 80%;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 15px;
-    padding-right: 15px;
-	-webkit-backdrop-filter: blur(2px);
-}
-.about .descripition h2 {
-    font-size: 400%;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-}
-.about .descripition .text {
-    line-height: 320%;
-    padding-top: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
-    padding-left: 50px;
-    width: 65%;
-}
-.about .logo {
-    width: 25%;
-    position: absolute;
-    right: 13%;
-    bottom: 22%;
-    z-index: 500;
-}
-.works {
-    background-color: rgba(244,247,231,1.00);
-    padding-bottom: 200px;
-    padding-top: 130px;
-    position: relative;
-}
-.works .sectitle {
-    margin-top: 0;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 40px;
-    width: 80%;
-    font-size: 375%;
-}
-.works .cards {
-    width: 80%;
-}
-.works .card {
-    width: 33.6%;
-    height: 33.6%;
-    border-style: solid;
-    border-width: medium;
-    border-collapse: collapse;
-    margin-bottom: -2px;
-    position: relative;
-    overflow: hidden;
-}
-
-.works .card .text{
-    position: absolute;
-    background-color: rgba(0,0,0,0.5);
-    opacity: 0;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    transition: all 0.6s ease;
-    left: -10%;
-    top: -10%;
-    right: 0px;
-    bottom: 0px;
-    flex-flow: column;
-    justify-content: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 85%;
-    line-height: 110%;
-    width: 120%;
-    margin: 0px;
-    height: 120%;
-    z-index: 500;
-}
-.works .card:hover .text {
-	opacity: 1;
-}
-.works .card .title {
-    font-size: 150%;
-    margin-bottom: 10px;
-}
-.works .moon {
-    width: 12%;
-    position: absolute;
-    right: 3%;
-    bottom: 2%;
-    z-index: 500;
-}
-.timeandplace {
-    height: 586px;
-    padding-top: 130px;
-    position: relative;
-    margin-bottom: 150px;
-}
-.timeandplace .kobans {
-    width: 7%;
-    position: absolute;
-    top: 10%;
-    left: 6%;
-    opacity: 0.5;
-}
-.timeandplace .triangles {
-    position: absolute;
-    bottom: -15%;
-    right: 35%;
-    width: 8%;
-    opacity: 0.5;
-}
-.timeandplace .centerflex {
-    width: 80%;
-    z-index: 500;
-    align-items: center;
-}
-.timeandplace .descripition {
-    width: 60%;
-}
-.timeandplace .sectitle {
-    font-weight: bold;
-}
-.timeandplace table {
-    border-collapse: collapse;
-}
-.timeandplace tr {
-    border-top: 1px solid rgba(179,169,146,1.00);
-    border-bottom: 1px solid rgba(179,169,146,1.00);
-    border-collapse: collapse;
-}
-.timeandplace th {
-    text-align: left;
-    width: 100px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 15px;
-}
-.timeandplace td {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-.timeandplace .map {
-    position: relative;
-    padding-top: 0%;
-    width: 37%;
-}
-.timeandplace .map iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-.people {
-    background-color: rgba(50,44,61,1.00);
-    color: rgba(213,213,213,1.00);
-    padding-top: 1px;
-    padding-bottom: 250px;
-    position: relative;
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
-.people .stripes {
-    opacity: 0.1;
-    position: absolute;
-    overflow-y: hidden;
-}
-.people .umetri {
-    position: absolute;
-    top: 10%;
-    left: 5%;
-    opacity: 0.2;
-    width: 14%;
-}
-.people .centerflex {
-    align-items: center;
-    margin: 0 auto;
-    width: 75%;
-}
-.people .face {
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 150px;
-    width: 75%;
-    height: 600px;
-    margin-top: 100px;
-}
-.people .face .role {
-    margin-bottom: 80px;
-    font-size: 125%;
-    margin-left: -40px;
-}
-.people  .face .name {
-    font-size: 200%;
-    margin-bottom: 10px;
-}
-.people .face .department {
-    margin-bottom: 20px;
-}
-.people .box {
-	overflow: hidden;
-    transform: skewY(-45deg);
-}
-.people .box img{
-    width: 440px;
-    height: 100%;
-    object-fit: cover;
-    transform: skewY(45deg);
-}
-.people .face .descripition {
-    width: 40%;
-    margin-right: 0px;
-    padding-right: 0px;
-}
-.people .members {
-    width: 60%;
-}
-.people .member  {
-    text-align: center;
-    font-size: 130%;
-    line-height: 150%;
-    padding-top: 50px;
-}
-.people .cloud {
-    width: 21%;
-    position: absolute;
-    bottom: 4%;
-    right: -2%;
-}
-footer  {
-    height: 300px;
-    background-color: rgba(88,109,139,1.00);
-}
-footer .centerflex {
-    width: 90%;
-    align-items: center;
-    height: 300px;
-    justify-content: space-between;
-}
-footer .class_name {
-    font-size: 200%;
-}
-footer .department {
-    font-size: 60%;
-    margin-bottom: 20px;
-}
-footer .archive {
-    /* [disabled]margin-left: 30%; */
-}
-footer .archive2 {
-    margin-left: 10%;
-}
-footer .archive a {
-    padding-top: 10px;
-    font-size: 150%;
-    padding-bottom: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-footer .archive2 a {
-    padding-top: 10px;
-    font-size: 150%;
-    padding-bottom: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-footer .fuck {
-    display: flex;
-    width: 15%;
-    margin-right: 6%;
-}
-.forms{
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 500;
-	transition: 0.8s ease-in-out;
-	transform: translateY(30px);
-	opacity: 0;
-}
-.forms.on {
-  	transform: translateY(0);
-  	opacity: 1.0;
-}
-.forms a{
-    display: block;
-    text-decoration: none;
-	border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 150px;
-    background: rgba(0,0,0,0.2);
-    color: #FFF;
-    text-align: center;
-    margin: 10px 0;
-}
-.forms:hover{
-    opacity: 0.85 ;
-}
-
-@media screen and (max-width:1112px){
-.about {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    position: relative;
-    background-repeat: repeat;
-    background-image: url("../img/アセット 2.svg");
-    background-size: 5% auto;
-}
-.about .descripition {
-    margin-right: auto;
-    margin-left: auto;
-    width: 90%;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.works {
-    background-color: rgba(244,247,231,1.00);
-    padding-bottom: 120px;
-    padding-top: 80px;
-    position: relative;
-}
-footer .fuck {
-    display: flex;
-    width: 15%;
-    margin-right: 6%;
-}
-.forms a {
-    display: block;
-    text-decoration: none;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height: 100px;
-    background: rgba(0,0,0,0.2);
-    color: #FFF;
-    text-align: center;
-    margin: 10px 0;
-}
-}
-
-@media screen and (min-width:1500px){
-.people .centerflex {
-    align-items: center;
-    width: 65%;
-}
-.people .members {
-    width: 50%;
-}
-footer .centerflex {
-    width: 80%;
-    align-items: center;
-    height: 300px;
-    justify-content: space-between;
-}
-footer .fuck {
-    display: flex;
-    width: 15%;
-    /* [disabled]margin-right: 6%; */
-}
+.container .description {
+    margin-bottom: 105px;
 }
 
 @media screen and (max-width:850px){
-.pc {
-	display: none;
-}
-
-.about .logo {
-    width: 25%;
-    position: absolute;
-    right: 13%;
-    bottom: 22%;
-    z-index: 500;
-    display: none;
-}
-.works .centerflex {
-    width: 100%;
-}
-.works .moon {
-    width: 12%;
-    position: absolute;
-    right: 3%;
-    bottom: 2%;
-    z-index: 500;
-    display: none;
-}
-.people .umetri {
-    position: absolute;
-    top: 10%;
-    left: 5%;
-    opacity: 0.2;
-    width: 21%;
-}
-.people .centerflex {
-    align-items: center;
-    width: 90%;
-}
-.people .face {
+.container {
+    margin-top: 30px;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 50px;
-    width: 75%;
-    /* [disabled]height: 600px; */
-    margin-top: 35px;
+    margin-bottom: 0;
+    width: 78%;
 }
-.people .member {
-    text-align: center;
-    font-size: 130%;
-    line-height: 150%;
-    padding-top: 50px;
+.mainv .image {
+    margin-top: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
 }
-footer .class_name {
-    font-size: 200%;
-    width: 250px;
-}
-footer .fuck {
-    display: flex;
-    width: 15%;
-    margin-right: 12%;
-}
-}
-
-@media screen and (min-width:851px){
-.sp {
-    display: none;
-}
-}
-
-@media screen and (max-width:420px){
-.nav {
+.mainv .l {
     position: absolute;
-    left: 15px;
-    margin-top: 25px;
+    left: 0%;
+    width: 72px;
+    height: 100%;
+    top: 0%;
+    background-color: rgba(255,255,255,1.00);
+	display: none;
+}
+.mainv .r {
+    position: absolute;
+    width: 72px;
+    height: 100%;
+    top: 0%;
+    background-color: rgba(255,255,255,1.00);
+    right: 0%;
+	display: none;
 }
 header .menu {
     writing-mode: vertical-rl;
     text-orientation: sideways;
     transform: rotate( -180deg );
-    margin-top: 10px;
+    margin-top: 15px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 0;
     letter-spacing: 0.7vw;
-    font-size: 90%;
-    display: none;
-}
-.mainv .logo {
-    width: 45%;
-    position: absolute;
-    right: 7%;
-    top: 10%;
-    border-radius: 24px;
-}
-.mainv .logo.sp {
-	width: 45%;
-    position: absolute;
-    right: 7%;
-    top: 10%;
-    border-radius: 24px;
-	filter: blur(5px);
+	display: none;
 }
 .mainv .text {
     writing-mode: vertical-rl;
     text-orientation: sideways;
     position: absolute;
-    right: 10px;
+    right: 24px;
     bottom: 10%;
-    font-size: 90%;
+    font-size: 110%;
     letter-spacing: 1.1vw;
-    display: none;
-}
-.mainv .t, .b, .l, .r {
-    display:none;
-}
-.mainv .mainvisual .sp {
-    height: 100%;
-    width: auto;
-}
-.about {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    position: relative;
-    background-repeat: repeat;
-    background-image: url("../img/アセット 2.svg");
-    background-size: 10% auto;
-}
-.about .descripition {
-    margin-right: auto;
-    margin-left: auto;
-    width: 96%;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 10px;
-    padding-right: 5px;
-}
-.about .descripition h2 {
-    font-size: 200%;
-}
-.about .descripition .text {
-    line-height: 230%;
-    -webkit-backdrop-filter: blur(2px);
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 10px;
-    font-size: 90%;
-}
-.works .sectitle {
-    margin-top: 0;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 40px;
-    width: 80%;
-    font-size: 199%;
-}
-.works .centerflex {
-    width: 100%;
-    display: block;
-}
-.works .card {
-    width: 80%;
-    height: 80%;
-    border-style: solid;
-    border-width: medium;
-    border-collapse: collapse;
-    margin-bottom: -2px;
-    position: relative;
-    overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
-}
-.works .card .title {
-    font-size: 140%;
-    margin-bottom: 10px;
-}
-.timeandplace {
-    height: auto;
-    padding-top: 90px;
-    position: relative;
-    margin-bottom: 99px;
-}
-.timeandplace .kobans {
-    width: 15%;
-    position: absolute;
-    top: 10%;
-    left: 6%;
-    opacity: 0.5;
-}
-.timeandplace .triangles {
-    position: absolute;
-    bottom: -6%;
-    right: 7%;
-    width: 23%;
-    opacity: 0.5;
-}
-.timeandplace .centerflex {
-    width: 96%;
-    z-index: 500;
-    align-items: center;
-    display: block;
-}
-.timeandplace .descripition {
-    width: 98%;
-    font-size: 90%;
-    margin-bottom: 70px;
-}
-.timeandplace th {
-    text-align: left;
-    width: 75px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 15px;
-}
-.timeandplace .map {
-    position: relative;
-    margin-top: 0;
-    margin-right: auto;
-    margin-left: 7.5%;
-    margin-bottom: 0;
-    width: 85%;
-}
-.timeandplace .map iframe {
-    /* [disabled]position: absolute; */
-    width: 100%;
-    margin-top: 0;
-    margin-right: auto;
-    margin-left: 10%;
-    margin-bottom: 0;
-    height: 100%;
-}
-.timeandplace .sectitle {
-    font-weight: bold;
-    font-size: 200%;
-}
-.people .stripes {
-    opacity: 0.1;
-    position: absolute;
-    height: 100%;
-}
-.people .face {
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 150px;
-    width: 75%;
-    height: 600px;
-    margin-top: 100px;
-}
-.people .face .role {
-    margin-bottom: 80px;
-    font-size: 100%;
-    margin-left: -30px;
-}
-.people  .face .name {
-    font-size: 130%;
-    margin-bottom: 6px;
-}
-.people .member {
-    text-align: center;
-    font-size: 100%;
-    line-height: 130%;
-    padding-top: 50px;
-}
-.people .cloud {
-    width: 30%;
-    position: absolute;
-    bottom: 4%;
-    right: -2%;
+	display: none;
 }
 }

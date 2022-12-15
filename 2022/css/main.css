@@ -64,6 +64,7 @@ header .menu {
     margin-left: auto;
     margin-bottom: 0;
     letter-spacing: 0.7vw;
+    font-family: YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
 }
 .mainv {
     position: relative;
@@ -118,6 +119,9 @@ header .menu {
     top: 0%;
     background-color: rgba(255,255,255,1.00);
     right: 0%;
+}
+.mainv a {
+    font-family: YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
 }
 .about {
     padding-top: 120px;
@@ -184,6 +188,9 @@ header .menu {
     position: relative;
     overflow: hidden;
 }
+.works .card a {
+    font-family: YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
+}
 
 .works .card .text{
     position: absolute;
@@ -194,8 +201,6 @@ header .menu {
     align-items: center;
     text-align: center;
     transition: all 0.6s ease;
-    left: -10%;
-    top: -10%;
     right: 0px;
     bottom: 0px;
     flex-flow: column;
@@ -204,9 +209,9 @@ header .menu {
     padding-right: 20px;
     font-size: 85%;
     line-height: 110%;
-    width: 120%;
+    width: 100%;
     margin: 0px;
-    height: 120%;
+    height: 100%;
     z-index: 500;
 }
 .works .card:hover .text {
@@ -319,6 +324,11 @@ header .menu {
     height: 600px;
     margin-top: 100px;
 }
+.people .face .descripition {
+    width: 40%;
+    margin-right: 0px;
+    padding-right: 0px;
+}
 .people .face .role {
     margin-bottom: 80px;
     font-size: 125%;
@@ -331,11 +341,6 @@ header .menu {
 }
 .people .face .department {
     margin-bottom: 20px;
-}
-.people .face .descripition {
-    width: 40%;
-    margin-right: 0px;
-    padding-right: 0px;
 }
 .people .box {
 	overflow: hidden;
@@ -512,6 +517,25 @@ footer .fuck {
     z-index: 500;
     display: none;
 }
+.about .descripition {
+    margin-right: auto;
+    margin-left: auto;
+    width: 96%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.about .descripition .text {
+    line-height: 230%;
+    -webkit-backdrop-filter: blur(2px);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    font-size: 90%;
+    width: 100%;
+    padding-right: 10px;
+}
 .works .centerflex {
     width: 100%;
 }
@@ -541,6 +565,11 @@ footer .fuck {
     width: 75%;
     /* [disabled]height: 600px; */
     margin-top: 35px;
+}
+.people .face .role {
+    margin-bottom: 39px;
+    font-size: 125%;
+    margin-left: 0px;
 }
 .people .member {
     text-align: center;

@@ -30,7 +30,8 @@ body {
  */
 
 main {
-  display: block;
+    display: block;
+    font-family: YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
 }
 
 /**
