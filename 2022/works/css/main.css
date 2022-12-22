@@ -4,6 +4,7 @@
     margin-left: auto;
     margin-bottom: 0;
     width: 49%;
+    font-family: YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
 }
 header {
     position: relative;
@@ -11,7 +12,7 @@ header {
 }
 .sectitle {
     font-size: 200%;
-    margin-bottom: 30px;
+    margin-bottom: 14px;
 }
 .centerflex {
     margin: 0 auto;
@@ -119,6 +120,10 @@ header .menu {
     top: 0%;
     background-color: rgba(255,255,255,1.00);
     right: 0%;
+}
+.container .name {
+    font-size: 130%;
+    margin-bottom: 30px;
 }
 .container .description {
     margin-bottom: 105px;
