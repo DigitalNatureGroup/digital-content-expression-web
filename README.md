@@ -9,6 +9,7 @@
 - `/20XX`
   - 20XX年のホームページを格納する
   - 2023年度はReactを採用したため、ビルドされたファイルのみを `/2023` に配置しました（[リポジトリ](https://github.com/inaniwaudon/digicon2023-web)）
+  - 2025年度はAstroを採用したため、ビルドされたファイルのみを `/2025` に配置しました（[リポジトリ](https://github.com/hunt-kingyo/digicon2025-web)）
 - `CNAME`
   - カスタムドメインの設定に使用されている
 - `404.html`
@@ -61,6 +62,8 @@ GitHub PagesのURLに対してカスタムドメインを適用しています�
 | 2022 | 香取賢佑 | 202010246 | kenkenissocool@gmail.com | @kenkenissocool |
 | 2023 | 和田優斗 | 202111710 | <me@yokohama.dev>        | @kyoto_inaniwa  |
 | 2024 | 髙𣘺伊織 | 202210016 | <me@iorin.io>            | @iorin\_\_io    |
+| 2025 | 駒谷昌輝 | 202312910 | hunt.kingyo@gmail.com    | @hunt\_kingyo   |
+
 
 なお、本レポジトリの仕組み等については2021年度担当者浪川に連絡のこと
 

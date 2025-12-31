@@ -56,11 +56,22 @@
 }
 .mainv ul .seventh {
   top: 35%;
-  left: 30%;
+  left: 22%;
   position: absolute;
 }
 .mainv ul .eighth {
   top: 35%;
-  left: 56%;
+  left: 37%;
   position: absolute;
 }
+.mainv ul .ninth {
+  top: 35%;
+  left: 52%;
+  position: absolute;
+}
+.mainv ul .tenth {
+  top: 35%;
+  left: 67%;
+  position: absolute;
+}
+
